@@ -9,11 +9,11 @@ tensor1d.print();
 // console.log(tensor1d);
 
 console.log("----- TENSOR 2D -----");
-tf.tensor2d([[133, 2], [3, 4]]).print();
+tf.tensor2d([[13, 26], [31, 43]]).print();
 tf.tensor2d([13, 2, 3, 4, 5, 6, 7, 8], [4, 2]).print();
 
 console.log("----- TENSOR 3D -----");
-tf.tensor3d([1, 2, 3, 4], [1, 2, 2]).print();
+tf.tensor3d([11, 22, 33, 44], [11, 222, 23]).print();
 tf.tensor3d([1, 2, 3, 4, 5, 6, 7, 8], [2, 2, 2]).print();
 //tf.tensor3d([11, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16], [2, 4, 2]).print();
 tf.tensor3d([
