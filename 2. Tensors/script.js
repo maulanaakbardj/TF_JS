@@ -22,3 +22,7 @@ tf.tensor3d([1, 2, 3, 4], [2, 2, 1]).print();
 console.log("____Tensor 4D___");
 tf.tensor4d([[[[1], [2]], [[3], [4]]]]).print();
 tf.tensor4d([1, 2, 3, 4], [2, 1, 2, 1]).print();
+
+console.log("____Tensor 5D___");
+tf.tensor5d([[[[[1],[2]],[[3],[4]]],[[[5],[6]],[[7],[8]]]]]).print();
+tf.tensor5d([1, 2, 3, 4, 5, 6, 7, 8], [2, 1, 2, 2, 1]).print();
