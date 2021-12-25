@@ -19,3 +19,6 @@ tf.tensor3d([[[1], [2]], [[3], [4]]]).print();
 console.log("____Tensor 3D (2(group)x2(baris)x1(kolom))___");
 tf.tensor3d([1, 2, 3, 4], [2, 2, 1]).print();
 
+console.log("____Tensor 4D___");
+tf.tensor4d([[[[1], [2]], [[3], [4]]]]).print();
+tf.tensor4d([1, 2, 3, 4], [2, 1, 2, 1]).print();
