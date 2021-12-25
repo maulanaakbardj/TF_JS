@@ -2,7 +2,7 @@ console.log("----- SCALAR -----");
 tf.scalar(3.14).print();
 
 console.log("----- TENSOR 1D -----");
-const tensor1d = tf.tensor1d([10, 23, 34], 'int32');
+const tensor1d = tf.tensor1d([1, 3, 3]);
 
 tf.print(tensor1d);
 tensor1d.print();
